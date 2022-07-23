@@ -1,0 +1,140 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    outline: 1px solid limegreen !important;
+}
+
+/* img {
+    
+    
+} */
+
+.image_thumbnail {
+    width: 5rem;
+    height:5rem;
+}
+
+.body2 {
+    height:auto;
+    width:auto;
+}
+
+div {
+    color:red;
+}
+
+h1 {
+color: yellow;
+}
+
+.section1 {
+    background-color: red;
+    height:20vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.section2 {
+    background-color: teal;
+    height:80vh;
+    display:flex;
+}
+
+.headContainer_wrapper {
+    background-color:green;
+    flex-basis:30%;
+    display:flex;
+    flex-direction: row;
+
+}
+
+
+.bodyContainer_wrapper {
+    background-color:blue;
+    flex-basis:80%;
+    display:flex;
+    flex-direction: column;
+    padding: 0rem 1rem 0rem 1rem
+}
+
+.body {
+flex-basis:12.5%;
+display:flex;
+flex-direction: column;
+margin: 0.5rem 0rem 0.5rem 0rem
+
+}
+
+.avatar_title{
+    display:flex;
+    justify-content: center;
+    flex-basis:10%;
+    padding:0.5rem;
+    background-color: brown;
+
+}
+
+.avatar_item {
+    background-color:orange;
+    flex-basis:90%;
+    display:flex;
+    align-content:flex-start;
+    gap:0.5rem;
+    flex-wrap:wrap;
+}
+
+.avatar_item_children {
+    flex-basis:10%;
+    height:5rem;
+    background-color: bisque;
+    border-radius: 0.5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* -------------------------------------------------------------------------- */
+/*                               head container                               */
+/* -------------------------------------------------------------------------- */
+
+.headContainer {
+    background-color: pink;
+    height:50vh;
+    border-radius: 1rem;
+    flex-basis:90%;
+    margin: 1rem;
+    display:flex;
+    flex-direction: column;
+    padding: 10% 10% 0% 10% ;
+    align-items: center;
+}
+
+.avatar {
+    background-color:aqua;
+    flex-basis:80%;
+    width:100%;
+    position:relative;
+}
+
+
+.avatar_overlap_item {
+
+background-color: aliceblue;
+height: 100%;
+width:100%;
+position:absolute;
+opacity:1;
+}
+
+.button {
+    flex-basis:15%;
+    background-color: red;
+    margin:0.5rem;
+    width:50%;
+    border-radius: 1rem;
+}
