@@ -18,7 +18,7 @@
 
 
 .button {
-
+    cursor:pointer;
     font-family: komet, sans-serif;
     font-weight:2rem;
     font-size:1rem;
@@ -31,13 +31,7 @@
     font-size: 5vh;
     text-align:center;
     letter-spacing: 0.1rem;
-    /* margin:1rem; */
 }
-
-/* .selected {
-    background-color:#FF6700;
-    z-index: 2;
-} */
 
 .image_thumbnail {
     width: 100%;
@@ -48,10 +42,6 @@
     height:auto;
     width:auto;
 }
-
-/* div {
-    color:red;
-} */
 
 h1 {
 color: yellow;
